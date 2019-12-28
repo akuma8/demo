@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+        strategy: restart_context
+        monitoring-secrets: true
+        mode: event
+        monitoring-config-maps: true

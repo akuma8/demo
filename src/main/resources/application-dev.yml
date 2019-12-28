@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    kubernetes:
+      enabled: false
+      secrets:
+        enable-api: false
+      config:
+        enable-api: false
+        enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
